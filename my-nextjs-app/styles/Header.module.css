@@ -1,0 +1,9 @@
+.header {
+    background-color:rgb(94, 33, 12);
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+    color:   rgb(235, 224, 208);
+    font-family: 'Times New Roman', Times, serif;
+}
