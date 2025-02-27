@@ -10,16 +10,18 @@ export default function Home() {
   return (
     <div>
         <Header/>
-      <main className={styles.main}>
-        <aside className={styles.cards}>
         <Image className={styles.image} src={Banner} alt="Banner bk"/>
+      <main className={styles.main}>
+        <div className={styles.allcards}>
+        <aside className={styles.aside}>  
         <Card title="Balde de Batata" content="Nossas crocantes e irresistíveis batatas fritas agora na versão balde!"/>
         <Card title="Chicken Duplo" content="Pão com gergelim, dois deliciosos filés de peito de frango empanado, cheddar fatiado, maionese e alface. É de dar água na boca!"/>
         <Card title="Mega Stacker Rodeio" content="Duas camadas do tradicional Mega Stacker e a novidade do molho barbecue com seis onion rings! Esse é o Mega Stacker Rodeio 2.0. Vai encarar?"/>
-        <Image className={styles.image02} src={lanche} alt="Banner bk"/>
         </aside>
+        </div>
+        <Image className={styles.image02} src={lanche} alt="Banner bk"/>
       </main>
-      <Footer props="Footer"/>
+      <Footer props="Todos os direitos reservados" />
     </div>
 
   );
